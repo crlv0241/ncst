@@ -90,6 +90,12 @@ h6,
     font-weight: normal;
 }
 
+@media screen and (min-width:350px) and (max-width: 600px) {
+    .fs-6-md{
+        font-size: .75rem !important; 
+    }
+}
+
 
 /*** Navbar ***/
 .navbar.sticky-top {
@@ -107,10 +113,10 @@ h6,
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
+    margin-right: 25px;
     padding: 25px 0;
     color: var(--dark);
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
     outline: none;
 }
