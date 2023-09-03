@@ -96,6 +96,13 @@ h6,
     }
 }
 
+.scale1{
+    transition: all .09s;
+}
+
+.scale1:hover{
+    transform: scale(1.1);
+}
 
 /*** Navbar ***/
 .navbar.sticky-top {
@@ -262,7 +269,11 @@ h6,
         z-index: 1;
     }
 }
-
+.top-feature {
+    position: relative;
+    margin-top: -80px;
+    z-index: 1;
+}
 
 /*** Facts & Quote ***/
 .facts,
